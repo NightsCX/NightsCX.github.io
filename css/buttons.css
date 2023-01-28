@@ -1,0 +1,102 @@
+.main-button {
+    position: absolute;
+    margin: 0;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 60px;
+    text-decoration: none;
+    transition: color 0.15s, text-shadow 0.15s;
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    z-index: 999;
+}
+
+.main-button-suffix {
+    color: rgb(0, 132, 255);
+    text-shadow: 0 0 12px rgba(0, 132, 255, 0.5);
+}
+
+.link-div {
+    position: absolute;
+    margin: 0;
+    bottom: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+
+.link-button {
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    transition: color 0.15s, text-shadow 0.15s;
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.link-button:hover {
+    color: rgb(0, 132, 255);
+    text-shadow: 0 0 12px rgba(0, 132, 255, 0.5);
+}
+
+.separator-button {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.tos-div {
+    position: absolute;
+    margin: 0;
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+
+.tos-text {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.tos-button {
+    cursor: pointer;
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(0, 132, 255);
+    text-shadow: 0 0 12px rgba(0, 132, 255, 0.5);
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    overflow: hidden;
+    font-family: Roboto Mono;
+    background-color: black;
+    height: 100vh;
+}
+
+#bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
