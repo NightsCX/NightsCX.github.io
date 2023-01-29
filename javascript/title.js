@@ -7,7 +7,7 @@ function animateTitle(Title, delay) {
         if (counter == false)
             direction = true;
         counter = (direction == true) ? ++counter : --counter;
-        newtitle = (counter == 0) ? "_" : Title.slice(0, counter);
+        newtitle = (counter == 0) ? "rinichi" : Title.slice(0, counter);
         document.title = newtitle;
     }, delay)
 }
