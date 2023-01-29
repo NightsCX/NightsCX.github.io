@@ -59,7 +59,7 @@
 .text-div {
     position: absolute;
     margin: 0;
-    bottom: 2%;
+    bottom: -2%;
     left: 50%;
     transform: translateX(-50%);
     z-index: 999;
