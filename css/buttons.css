@@ -42,8 +42,8 @@
 }
 
 .link-button:hover {
-    color: rgb(0, 132, 255);
-    text-shadow: 0 0 12px rgba(0, 132, 255, 0.5);
+    color: rgb(150, 22, 255);
+    text-shadow: 0 0 12px rgba(150, 22, 255, 0.5);
 }
 
 .separator-button {
