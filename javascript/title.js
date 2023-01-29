@@ -12,4 +12,4 @@ function animateTitle(Title, delay) {
     }, delay)
 }
   
-  animateTitle('nights.cx', 250);
+  animateTitle('nights.cx', 300);
