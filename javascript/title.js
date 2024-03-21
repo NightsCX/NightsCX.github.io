@@ -12,4 +12,4 @@ function animateTitle(Title, delay) {
     }, delay)
 }
   
-  animateTitle('nights.cx', 600);
+  animateTitle('interval.fun', 600);
